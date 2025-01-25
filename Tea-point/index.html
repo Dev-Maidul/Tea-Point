@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome cdn -->
+    <script src="https://kit.fontawesome.com/8d06cf118e.js" crossorigin="anonymous"></script>
+    <!-- Google Font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Tailwind cnd -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  CSS Link-->
+      <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Tea Point</title>
+</head>
+
+<body>
+    <main class="max-w-screen-xl mx-auto">
+        <header>
+            <div class="banner lg:flex items-center gap-3 sm:justity-center">
+                <div class="banner-left">
+                    <h1 class="text-7xl font-bold text-[rgb(28,28,28) mb-4">It's good
+                        <br> tea time at The <br> Tea House
+                    </h1>
+                    <p class="text-gray-500 text-5">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
+                    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-3 rounded-lg text-white text-xl font-semibold mt-4">Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-2xl text-white"></i></button>
+                </div>
+                <div class="banner-right">
+                    <div class="banner-image relative">
+                        <img src="./images/banner.png" alt="">
+                        <div class="banner-content flex items-center shadow-lg px-3 py-3 rounded-lg absolute">
+                            <div><i class="fa-solid fa-star text-3xl text-orange-500"></i></div>
+                            <div>
+                                <h4 class="text-3xl font-bold ml-3">5.00</h4>
+                                <p class="text-gray ml-3">Trust Pilot Ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </header>
+    </main>
+</body>
+
+</html>
